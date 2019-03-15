@@ -1,6 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
-import ToastExample from './moduleWrapper';
+import { StyleSheet, Text, View, Button, NativeModules } from 'react-native';
+const ToastExample = NativeModules.ToastExample;
 
 export default class App extends React.Component {
   showToast (){
